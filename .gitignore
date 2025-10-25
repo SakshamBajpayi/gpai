@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# FAISS and embeddings
+faiss_index_uni_buddy/
+*.bin
+*.pkl
+
+# Model caches (huge!)
+huggingface/
+.cache/
+*.safetensors
+*.pt
+
+# Logs
+logs/
+*.log
+
+# VSCode or IDE stuff
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
